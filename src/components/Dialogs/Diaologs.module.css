@@ -1,0 +1,31 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+
+.dialogsItems {
+    padding: 10px;
+}
+.dialogsItems .active {
+    color: darkred;
+    padding-bottom: 20px;
+}
+.dialogsItems .active img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.masseges {
+padding: 10px;
+}
+
+.masseges .massege {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+

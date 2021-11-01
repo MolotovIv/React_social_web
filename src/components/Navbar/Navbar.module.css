@@ -1,0 +1,16 @@
+.nav {
+    grid-area: n;
+    background-color: rgb(253, 183, 91);
+    padding: 20px;
+    line-height: 50px;
+    background-image: url("https://klv-oboi.ru/img/gallery/56/thumbs/25203-730.jpg");
+        }
+
+.item a {
+    color: whitesmoke;
+    text-decoration: none;
+    }
+
+.item a.active {
+    color: gold;
+}
